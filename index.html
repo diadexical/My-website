@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declan Burns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a name="home"></a>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul>
+            <div class="pages">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#id_about_me">About me</a></li>
+                <li><a href="#contact_me">Contact me</a></li>
+            </div>
+
+            <!-- target blank opens the links in new tabs instead of current tab -->
+            <div class="socials">
+                <li><a target="_blank" href="https://www.linkedin.com/in/declan-burns-8aa107175/"><img
+                            src="/images/linkedin.png" alt="linkedin"></a></li>
+                <li><a target="_blank" href="https://github.com/diadexical"><img src="/images/githubb.png"
+                            alt="github"></a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- profile name and picture -->
+
+    <div class="name">
+        <img src="/images/dec_avatar.png" alt="name pic" style="width:90%;"">
+        <p>Declan Burns</p>
+    </div>
+
+    <!-- page 2 about me info -->
+    
+        <img id="id_about_me" class="background-about" src="images/declan_avatarr.png" alt="">
+        <div class="text-container-about">
+            <h1>About me</h1>
+            <br><br>
+            <div class="box"></div>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in
+                some form, by injected humour, or randomised word which dont look even slightly beliveable. Lorem ipsum
+                dolor sit amet consectetur, adipisicing elit. Unde quidem, minima dolore cumque expedita est vitae magni
+                obcaecati, totam architecto culpa esse repellat ex, doloribus dignissimos veniam laboriosam. Voluptas,
+                doloribus. <br><br>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in
+                some form, by injected humour, or randomised word which dont look even slightly beliveable. Lorem ipsum
+                dolor sit amet consectetur, adipisicing elit. Unde quidem, minima dolore cumque expedita est vitae magni
+                obcaecati, totam architecto culpa esse repellat ex, doloribus dignissimos veniam laboriosam. Voluptas,
+                doloribus.
+            </p><br><br>
+            <a target="_blank"
+            href=" https://docs.google.com/document/d/1tAGs4Nc1QLS4Z3sKI0G39mWVgQB6bn_AVsKi1B00Tos/edit?usp=sharing>"
+            <button class="button-about"> Download CV</button> </a>
+            
+        </div>
+      
+
+
+
+        <!-- page 3 contact me form with redirection from own email app-->
+
+        <img class="background-contact" src="/images/declan-avattar.png" alt="">
+        <div class="contactme-form">
+            <a name="contact_me"></a>
+            <h1>Contact me</h1>
+            <form action="mailto:declanb@protonmail.com" method="post" enctype="text/plain">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="First Name" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="Last Name" placeholder="Your last name..">
+
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="My email:" placeholder="Your email..">
+
+                <label for="subject">Message</label><br>
+                <textarea id="subject" name="Message:" placeholder="Write something.."
+                    style="height:100%; width: 100%;"></textarea>
+
+                <input type="submit" value="Message me!">
+
+            </form>
+        </div>
+</body>
+
+</html>
