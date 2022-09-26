@@ -149,10 +149,10 @@ textarea {
   padding: 10px;
   border: 1px solid #41403e;
   border-radius: 10px;
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  box-sizing: border-box; 
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; 
 }
 
 /* submit button */
